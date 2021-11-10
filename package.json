@@ -1,7 +1,24 @@
 {
-  "name": "node-starter",
-  "version": "0.0.0",
+  "name": "wfs",
+  "version": "1.0.0",
+  "description": "数据部前端脚手架",
+  "main": "index.js",
+  "bin": {
+    "wfs2": "bin/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lijiaxin@37.com <lijiaxin@37.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.2.0",
+    "simple-git": "^2.47.0"
+  },
+  "engines": {
+    "node": ">10.0"
   }
 }
